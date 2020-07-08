@@ -1,0 +1,54 @@
+{
+    "title": "React从零基础入门到实践",
+    "author": "Elton",
+    "description": "本课程通过对简书项目进行实战开发，从基础原理逐步深入讲解React中的主流技术以及实战中的应用。课程讲解全部使用React16最新语法，让同学们全方位理解应用React构建项目，直接上手中级以上难度React项目开发。",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "my blog": "https://blog.prosight.me"
+        }
+    },
+    "plugins": [
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "chapter-fold",
+        "splitter",
+        "back-to-top-button",
+        "github",
+        "lightbox",
+        "prism", 
+        "-highlight",
+        "tbfed-pagefooter",
+        "donate"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/elton"
+        },
+        "prism": {
+          "css": [
+            "prismjs/themes/prism-tomorrow.css"
+          ]
+      	},
+      	"tbfed-pagefooter": {
+            "copyright":"&copy 2020 Elton",
+            "modify_label": "该文件最后修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "donate": {
+            "alipay": "./source/images/donate.png",
+            "title": "",
+            "button": "赞赏",
+            "alipayText": " "
+        }
+        
+    }
+}
